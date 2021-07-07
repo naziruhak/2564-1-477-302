@@ -80,9 +80,13 @@ h2 {
 }
 
 .form-group {
-    margin: 30px 0 0 0;
+    margin: 30px 0 0;
 }
 
 .row {
     margin: 30px;
+}
+
+.last {
+    margin-bottom: 30px;
 }
