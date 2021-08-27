@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+html body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.nav-item,
+.social_box {
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel {
+    margin: -30px 0 0 0;
+}
+
+.social_box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: #2f2519;
+    text-decoration: none;
+}
+
+.social_box a:hover {
+    color: rgba(255, 166, 0, 0.795);
+    background-color: white;
+    box-shadow: 2px 2px 9px 5px rgba(243, 223, 196, 0.76);
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+}
+
+
+/* -------------------------------- */
+
+
+/* .social_box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 50px 5px 10px 0;
+    background-color: #2f2519;
+    text-decoration: none;
+}
+
+.social_box a:hover {
+    color: rgba(255, 166, 0, 0.795);
+    background-color: white;
+    box-shadow: 2px 2px 9px 5px rgba(243, 223, 196, 0.76);
+}
+
+.social-item {
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+h4 {
+    margin: 0 0 30px 0;
+}
+
+
+
+.button button {
+    background-color: rgba(255, 166, 0, 0.795);
+    width: auto;
+    height: 40px;
+    border: none;
+} */
+
+.image-contact {
+    width: 100%;
+}
+
+.image-contact img {
+    width: 110%;
+    height: auto;
+}
+
+
+/* ------------ */
+
+h2 {
+    margin: 100px 0 100px 0;
+}
+
+.icon span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 50px 5px 10px 0;
+    background-color: #2f2519;
+    text-decoration: none;
+}
+
+.text {
+    text-align: center;
+}
+
+.image img {
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-group {
+    margin: 30px 0 0;
+}
+
+.row {
+    margin: 30px;
+}
+
+.last {
+    margin-bottom: 30px;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+#submit:hover {
+    background-color: gray;
+}
+
+.address {
+    padding: 40px;
+}
+
+.address address span {
+    font-weight: bolder;
+}
